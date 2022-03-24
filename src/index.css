@@ -10,6 +10,17 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: rgba(92, 5, 5, 0.931);
 }
 
+p {
+  color: white !important;
+}
+
+h {
+  color: white;
+}
+
+h1 {
+  color: white;
+}

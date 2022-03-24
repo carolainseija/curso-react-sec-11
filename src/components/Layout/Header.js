@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import mealsImage from '../../images/meals.jpg';
-import classes from '.Header.module.css';
+import classes from './Header.module.css';
+import HeaderCartBtn from './HeaderCartBtn';
 const Header = props => {
     return (
         <Fragment>
             <header className={classes.header}>
-                <h1>React Meals</h1>
-                <button>Cart</button>
+                <HeaderCartBtn />
             </header>
             <div className={classes['main-image']}>
                 <img src={mealsImage} alt="imagen de comida"/>
