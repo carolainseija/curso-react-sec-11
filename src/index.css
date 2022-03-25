@@ -10,7 +10,8 @@ html {
 
 body {
   margin: 0;
-  background-color: rgba(92, 5, 5, 0.931);
+  background-color: rgb(245, 99, 1);
+  /* background-color: rgba(92, 5, 5, 0.931); */
 }
 
 p {
