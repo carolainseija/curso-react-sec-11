@@ -8,13 +8,13 @@ const DUMMY_MEALS = [
     {
         id: 'm1',
         name: 'Hamburguesas',
-        description: 'Comunes:',
+        description: 'Comunes: Lechuga y tomate',
         price: 80.00,
     },
     {
         id: 'm2',
         name: 'Hamburguesas',
-        description: 'Completas: ',
+        description: 'Completas: Huevo, queso, lechuga y tomate ',
         price: 150.00,
     },
     {
@@ -25,6 +25,18 @@ const DUMMY_MEALS = [
     },
     {
         id: 'm4',
+        name: 'Milanesa en dos panes comun',
+        description: 'Fritas',
+        price: 250.00,
+    },
+    {
+        id: 'm5',
+        name: 'Milanesa en dos panes completa',
+        description: 'Fritas +  huevo + queso + picklets, etc',
+        price: 390.00,
+    },
+    {
+        id: 'm6',
         name: 'Milanesa Napolitana',
         description: 'Para uno: Fritas-- Para dos:Ensalada mixta',
         price: 680.00,
