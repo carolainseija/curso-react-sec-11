@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './MealItem.module.css';
-
+import CartIcon from '../../Cart/CartIcon';
 const MealItem = (props) => {
     const price = `$${props.price.toFixed(2)}`
     return (
@@ -12,8 +12,11 @@ const MealItem = (props) => {
                 <div className={classes.description}>{props.description}</div>
                 <div className={classes.price}>{props.price}</div>
             </div>
-            <div></div>
+            <div>
+               <CartIcon />
+            </div>
         </li>
+
     )
 }
 
