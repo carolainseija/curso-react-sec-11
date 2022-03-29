@@ -4,6 +4,7 @@ const Admin = () => {
     return (
         <div>
             <h1>bienvenidos</h1>
+            <p>jhgvjhds</p>
         </div>
     )
 }
