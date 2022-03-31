@@ -1,6 +1,5 @@
 .home {
   width: 100vw;
-  height: 100vh;
   margin: 0;
   background-color: rgb(245, 99, 1);
 }
@@ -11,3 +10,5 @@
   padding: 0;
   background-color: rgb(245, 99, 1);
 }
+
+/* background-color: rgb(245, 99, 1); */
