@@ -6,7 +6,7 @@ import classes from './MealItemForm.module.css';
 const MealItemForm = () => {
     return (
         <form className={classes.form}>
-           <Input label="Monto" />
+           <Input label="Cantidad" />
             <button className={classes.button}>+ Añadir</button>
         </form>
     )
